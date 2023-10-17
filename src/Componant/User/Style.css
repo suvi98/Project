@@ -1,0 +1,103 @@
+.find-doctors{
+    padding: 0px 150px 0px 150px;
+}
+
+/* .find-lind{
+    bottom: ;
+} */
+
+
+
+.city{
+    border:1px solid black ;
+    padding: 10px;
+}
+
+.city input{
+    border: none;
+}
+
+.find-subButton{
+    background-color: cadetblue;
+    border-radius: 5px;
+    border-color:  cadetblue;
+    margin-left: 15px;
+
+}
+.find-doctor-6{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.find-doctor-6 .row{
+    display: inline;
+}
+.find-lind img{
+    border-radius: 110px;
+}
+.btn-book{
+    background-color: #2375bd;
+    margin-top:"50px ";
+    color: white;
+}
+
+#status{
+    background: #24e0f3;
+    padding: 4px;
+    border-radius: 5px
+}
+.status{
+    background-image: url("https://bedfordmedical.com.au/sites/bedford/media/banners/adobestock_125253825.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    height: 606px;
+}
+
+.find-table{
+    margin-top: 10px;
+    background-color: antiquewhite;
+    height: 385px;
+    overflow: hidden;
+    overflow-y: scroll;
+    opacity: 0.9;
+}
+.find-docters{
+    background-image: url("https://xtreemsolution.com/assets/uploads/files/clinic-appointment-img-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+/* 
+    background: aliceblue;
+    height: 606px; */
+}
+
+.find-rating{
+    background: #81e281;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+
+.Bookappoint{
+    background-image: url("https://divinehearthospital.com/wp-content/uploads/2020/07/pediatrician-listening-chest-with-stethoscope_99043-3952.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    height: 561px;  
+}
+
+
+#videoConsult .vdo-span{
+    font-size: 2vw;
+    text-align: left;
+}
+
+#videoConsult .vdo-hyper-span{
+    font-size: 12px;
+    text-align: left;
+    color: #2375bd;
+    font-weight: 700;
+}

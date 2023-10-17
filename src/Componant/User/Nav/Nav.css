@@ -1,0 +1,22 @@
+.bgcolor{
+    color: black;
+   --bs-navbar-brand-hover-color:none;
+   font-family: Camphor,Helvetica,Arial,sans-serif!important;
+--bs-nav-link-hover-color:none;
+--bs-navbar-active-color:#0dcaf0;
+padding-right: 10px;
+}
+
+/* .bg-btn
+{
+      background-color: "cadetblue";
+        border-radius: "5px"
+} */
+
+.welcome{
+  background: cadetblue;
+  padding: 10px;
+  border-radius: 10px;
+  color: whitesmoke;
+  filter: drop-shadow(2px 4px 6px black);
+}

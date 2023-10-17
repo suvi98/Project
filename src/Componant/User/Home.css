@@ -1,0 +1,67 @@
+
+
+#home-user-A #home-banner{
+
+        border-radius: 30px;
+    height: 340px;
+    overflow: hidden;
+}
+
+#home-user-A  #home-banner img{
+  height: 310px;
+}
+/* Float four columns side by side */
+#home-user-A  .column {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+    /* background-color: aquamarine; */
+  }
+
+  #home-user-A   .column .card{
+    width: 100%;
+    padding: 10px;
+  }
+  /* Remove extra left and right margins, due to padding */
+  #home-user-A  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  #home-user-A  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: inline-flex;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  #home-user-A  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* padding: 16px; */
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-right:50px;
+   background-color: bisque;
+  }
+  #home-user-A  .homecard{
+    display: inline;
+  }
+  #home-user-A  .info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top-left-radius: 2.4rem;
+    border-top-right-radius: 2.4rem;
+    height: 60%;
+    
+}
+#home-user-A  .container .column{
+    width: 24%;
+}
